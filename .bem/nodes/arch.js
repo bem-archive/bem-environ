@@ -84,7 +84,7 @@ registry.decl('Arch', {
      */
     subtractLibrariesNodes : function(nodes) {
         return this.opts.force? nodes : nodes.filter(function(n) {
-            return ~this._libraries.indexOf(n) === -1;
+            return this._libraries.indexOf(n) === -1;
         }, this);
     },
 
@@ -93,7 +93,7 @@ registry.decl('Arch', {
      */
     createBlocksLevelsNodes: function(parent, children) {
         return this.__base.call(this, parent,
-                this.substractLibrariesNodes.call(this, children));
+                this.subtractLibrariesNodes.call(this, children));
     },
 
     /**
@@ -101,7 +101,7 @@ registry.decl('Arch', {
      */
     createBundlesLevelsNodes: function(parent, children) {
         return this.__base.call(this, parent,
-                this.substractLibrariesNodes.call(this, children));
+                this.subtractLibrariesNodes.call(this, children));
     }
 
 });
