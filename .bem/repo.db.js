@@ -17,8 +17,7 @@ module.exports = {
 
     'bem-bl' : {
         type     : 'git',
-        url      : 'git://github.com/bem/bem-bl.git',
-        treeish  : '0.3'
+        url      : 'git://github.com/bem/bem-bl.git'
     },
     'bem-controls' : {
         type     : 'git',
@@ -31,7 +30,7 @@ module.exports = {
     'bem-gen-doc' : {
         type     : 'git',
         url      : 'git://github.com/bem/bem-gen-doc.git',
-        treeish  : 'make'
+        branch   : 'make'
     },
     'bem-json' : {
         type     : 'git',
