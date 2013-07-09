@@ -1,0 +1,14 @@
+{
+  "name": "bem-environ",
+  "version": "1.0.0",
+  "author": "Vladimir Varankinv <varankinv@yandex-team.ru> (http://github.com/narqo)",
+  "main": "./lib/environ.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bem/bem-environ.git"
+  },
+  "peerDependencies": {
+    "bem": "~0.6.0"
+  },
+  "readmeFilename": "README.md"
+}
