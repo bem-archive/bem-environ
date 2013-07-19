@@ -7,8 +7,5 @@
     "type": "git",
     "url": "git://github.com/bem/bem-environ.git"
   },
-  "peerDependencies": {
-    "bem": "~0.6.0"
-  },
   "readmeFilename": "README.md"
 }
