@@ -1,6 +1,8 @@
 bem-environ
 ===========
 
+[![NPM version](https://badge.fury.io/js/bem-environ.png)](http://badge.fury.io/js/bem-environ)
+
 ## Usage
 
 // TODO: describe all of the project's features
