@@ -10,7 +10,7 @@ bem-environ
 Install it with `npm`
 
 ```
-› npm install bem-environ --save-dev
+› npm install bem-environ
 ```
 
 Update your project's `make.js` to extend common build process provided
