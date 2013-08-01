@@ -1,3 +1,23 @@
+1.2.0 / 2013-08-01
+==================
+
+  * `bem-environ` now exports function to set global root
+
+    Sample usage from `.bem/make.js`:
+
+    ```js
+    var environ = require('bem-environ')(__dirname);
+    ```
+
+  * Changed API of extending nodes of `bem make`
+
+    Sample usage from `.bem/make.js`:
+
+    ```js
+    var environ = require('bem-environ')(__dirname);
+    environ.extendMake(MAKE);
+    ```
+
 1.1.0 / 2013-07-19
 ==================
 
