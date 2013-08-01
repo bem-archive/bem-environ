@@ -10,18 +10,20 @@ bem-environ
 Install it with `npm`
 
 ```
-› npm install bem-environ
+› npm install bem-environ --save-dev
 ```
 
 Update your project's `make.js` to extend common build process provided
 by [bem-tools](http://github.com/bem/bem-tools)
 
 ```javascript
-
 // make.js
 
-// extend common build process with `bem-environ`'s nodes
-require('bem-environ/lib/nodes');
+// Initialize environ with global root path
+var environ = require('bem-environ')(__dirname);
+
+// Extend common `bem make` build process with `bem-environ`'s nodes (optional)
+environ.extendMake(MAKE);
 
 MAKE.decl('Arch', {
 
