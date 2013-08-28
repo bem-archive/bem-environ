@@ -1,3 +1,8 @@
+1.2.1 / 2013-08-29
+==================
+
+  * Fix crash when `libraries` key is not specified in config
+
 1.2.0 / 2013-08-01
 ==================
 
