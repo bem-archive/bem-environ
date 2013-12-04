@@ -95,3 +95,28 @@ Return absolute path to the library root or its files or directories.
 `{String} path...` — Library internal path
 
 Return relative to the root path to the library root or its files or directories.
+
+### Helpers
+
+#### getTechResolver(techs, prefix)
+
+`{Object} techs` – Tech rgistry to fulfill
+`{String} prefix` – Path to resolve from
+
+Returns resolver function to fulfill registry `techs` with tech modules according
+to specified path `prefix`
+
+```javascript
+// level.js
+var getTechResolver = require('environ').getTechResolver;
+
+exports.getTechs = function() {
+    var techs = {};
+
+    ['css', 'js', 'bemhtml'].forEach(
+        getTechResolver(techs, '<path/to/bem-core>/.bem/techs'));
+
+    return techs;
+}
+```
+
