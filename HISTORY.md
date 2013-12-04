@@ -1,3 +1,19 @@
+1.4.0 / 2013-12-04
+==================
+
+  * Add new helper `getTechResolver()`` (#9)
+
+1.3.1 / 2013-09-09
+==================
+
+  * Fix `LIB_ROOT` calculation which was broken in 1.3.0 (#8)
+
+1.3.0 / 2013-09-04
+==================
+
+  * Extend environ API (#7)
+  * Update README.md (#7)
+
 1.2.1 / 2013-08-29
 ==================
 
